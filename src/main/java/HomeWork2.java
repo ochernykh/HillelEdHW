@@ -31,14 +31,5 @@ public class HomeWork2 {
         System.out.println("------*------");
         System.out.println(String.format("varInt mod 2 = %s", mod));
 
-
-
-
-
-
-
-
-
-
     }
 }
