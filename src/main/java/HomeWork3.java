@@ -28,6 +28,7 @@ public class HomeWork3 {
         calculateNumbers(2,2,'-');
         calculateNumbers(3,5,'*');
         calculateNumbers(70,9, '/');
+        calculateNumbers(70,0, '/');
 
     }
 
@@ -87,9 +88,15 @@ public class HomeWork3 {
                 System.out.println(String.format("%s %c %s = %s" , firstNumber,operator,secondNumber,result));
                 break;
             case '/':
-                result = firstNumber / secondNumber;
-                System.out.println(String.format("%s %c %s = %s" , firstNumber,operator,secondNumber,result));
-                break;
+                if (secondNumber == 0){
+                    System.out.println("Can't divide by null");
+                    break;
+                }else {
+                    result = firstNumber / secondNumber;
+                    System.out.println(String.format("%s %c %s = %s" , firstNumber,operator,secondNumber,result));
+                    break;
+                }
+
             case '*':
                 result = firstNumber * secondNumber;
                 System.out.println(String.format("%s %c %s = %s" , firstNumber,operator,secondNumber,result));
