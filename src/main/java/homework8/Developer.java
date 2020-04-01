@@ -58,5 +58,4 @@ public class Developer extends Employee {
                 ", programmingLanguage=" + this.programmingLanguages +
                 '}';
     }
-
 }

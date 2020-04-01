@@ -22,4 +22,5 @@ public class Main {
         alex.learn("Java");
         System.out.println(alex);
     }
+
 }
