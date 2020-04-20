@@ -1,4 +1,4 @@
-package classwork12;
+package homework12;
 
 public class Caretaker {
     String name;

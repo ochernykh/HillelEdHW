@@ -1,6 +1,5 @@
-package classwork12;
+package homework12;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
