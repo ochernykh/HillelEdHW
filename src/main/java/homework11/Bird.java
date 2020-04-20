@@ -21,4 +21,14 @@ public abstract class Bird extends Animal implements IFlyable {
     public void fly() {
         System.out.printf("The Bird %s is flying \n" , this.getName());
     }
+
+    @Override
+    public boolean equals(Object o) {
+        return super.equals(o);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
